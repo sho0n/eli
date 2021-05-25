@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/eli/static/css/main.70b6c17a.chunk.css",
+    "main.js": "/eli/static/js/main.93d54e6e.chunk.js",
+    "main.js.map": "/eli/static/js/main.93d54e6e.chunk.js.map",
+    "runtime-main.js": "/eli/static/js/runtime-main.2de47572.js",
+    "runtime-main.js.map": "/eli/static/js/runtime-main.2de47572.js.map",
+    "static/js/2.4226d2c7.chunk.js": "/eli/static/js/2.4226d2c7.chunk.js",
+    "static/js/2.4226d2c7.chunk.js.map": "/eli/static/js/2.4226d2c7.chunk.js.map",
+    "static/js/3.95770569.chunk.js": "/eli/static/js/3.95770569.chunk.js",
+    "static/js/3.95770569.chunk.js.map": "/eli/static/js/3.95770569.chunk.js.map",
+    "index.html": "/eli/index.html",
+    "static/css/main.70b6c17a.chunk.css.map": "/eli/static/css/main.70b6c17a.chunk.css.map",
+    "static/js/2.4226d2c7.chunk.js.LICENSE.txt": "/eli/static/js/2.4226d2c7.chunk.js.LICENSE.txt",
+    "static/media/Preso.b42afab3.jpg": "/eli/static/media/Preso.b42afab3.jpg",
+    "static/media/anticelulitico.b12efe3d.jpg": "/eli/static/media/anticelulitico.b12efe3d.jpg",
+    "static/media/cavitacion.d1fb2885.jpg": "/eli/static/media/cavitacion.d1fb2885.jpg",
+    "static/media/depilacion.7cccb9aa.jpg": "/eli/static/media/depilacion.7cccb9aa.jpg",
+    "static/media/despigmentante.e8b02c0c.jpg": "/eli/static/media/despigmentante.e8b02c0c.jpg",
+    "static/media/empresas.184cb3f8.jpg": "/eli/static/media/empresas.184cb3f8.jpg",
+    "static/media/levantamiento.b7e05003.jpg": "/eli/static/media/levantamiento.b7e05003.jpg",
+    "static/media/main.e49c27c6.jpg": "/eli/static/media/main.e49c27c6.jpg",
+    "static/media/premium.aad505bf.jpg": "/eli/static/media/premium.aad505bf.jpg",
+    "static/media/radiofrecuencia.13872085.jpg": "/eli/static/media/radiofrecuencia.13872085.jpg",
+    "static/media/reafirmante.603d8265.jpg": "/eli/static/media/reafirmante.603d8265.jpg",
+    "static/media/reductor.fc278a03.jpg": "/eli/static/media/reductor.fc278a03.jpg",
+    "static/media/relax.0282bc50.jpg": "/eli/static/media/relax.0282bc50.jpg",
+    "static/media/spa.aa28d025.png": "/eli/static/media/spa.aa28d025.png",
+    "static/media/vacumterapia.e64d23cf.jpg": "/eli/static/media/vacumterapia.e64d23cf.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2de47572.js",
+    "static/js/2.4226d2c7.chunk.js",
+    "static/css/main.70b6c17a.chunk.css",
+    "static/js/main.93d54e6e.chunk.js"
+  ]
+}
