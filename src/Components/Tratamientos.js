@@ -14,8 +14,8 @@ class Tratamientos extends React.Component {
     render() {
         return (
             <>
-                            <div className='promo-title-box'><h1 className='promo-title'>TRATAMIENTOS</h1></div> 
-
+            <div className='promo-title-box'><h1 className='promo-title'>TRATAMIENTOS</h1></div> 
+                <div className='grid-tratamientos'>
                 <div className='box'>
                     <h1 className='title'>Depilacion</h1>
                     <div className='text'>
@@ -36,18 +36,18 @@ class Tratamientos extends React.Component {
                 <div className='box-v'>
                     <h1 className='title'>Manicura / Pedicura</h1>
                     <div className='text-v'>
-                        <p>Manicura completa ............................ 16€</p>
-                        <p>Manicura normal, solo esmaltado .............. 10€</p>
-                        <p>Manicura larga duracion, completa ............ 22€</p>
+                        <p>Manicura completa ......................... 16€</p>
+                        <p>Manicura normal, solo esmaltado ........... 10€</p>
+                        <p>Manicura larga duracion, completa ......... 22€</p>
                         <p>Manicura larga duracion, solo esmaltado ... 12.50€</p>
-                        <p>Pedicura completa ............................ 25€</p>
-                        <p>Pedicura normal solo esmaltado ............ 12.50€</p>
-                        <p>Pedicura larga duracion, completa  ........... 30€</p>
-                        <p>Pedicura larga duracion, solo esmaltado ...... 17€</p>
-                        <p>+ Tratamiento recuperador ..................... 5€</p>
-                        <p>+ Exfoliacion con masaje ..................... 10€</p>
-                        <p>+ Mascarilla hidratante ...................... 10€</p>
-                        <p>+ Ilustraciones .............................. 10€</p>
+                        <p>Pedicura completa ......................... 25€</p>
+                        <p>Pedicura normal solo esmaltado ........... 12.50€</p>
+                        <p>Pedicura larga duracion, completa  ....... 30€</p>
+                        <p>Pedicura larga duracion, solo esmaltado .. 17€</p>
+                        <p>+ Tratamiento recuperador ................. 5€</p>
+                        <p>+ Exfoliacion con masaje .................. 10€</p>
+                        <p>+ Mascarilla hidratante ................... 10€</p>
+                        <p>+ Ilustraciones ........................... 10€</p>
                         <br></br>
                     </div>                   
                 </div>
@@ -110,7 +110,8 @@ class Tratamientos extends React.Component {
                         <p>Cavitacion 1 zona ........................ 40€</p>
                         <p>Radiofrecuancia .......................... 40€</p>
                         <br></br>
-                    </div>                   
+                    </div>   
+                    </div>                
                 </div>   
             </>
         );

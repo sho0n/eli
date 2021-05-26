@@ -51,8 +51,8 @@ class App extends React.Component {
 						<Navbar scrollToTarget={this.scrollToTarget}></Navbar>
 					</div>
 					<img className='cover' src={Main} />
-					<div ref={ref => { this.targetRef = 'tratamientos' }} ><Tratamientos /></div>
 					<div ref={ref => { this.targetRef = ref }} ><Promociones/></div>
+					<div ref={ref => { this.targetRef = 'tratamientos' }} ><Tratamientos /></div>
 					<div ref={ref => { this.targetRef = ref }} ><Contacto/></div>
 					<Switch>
 						<Route exact path="/" component='' />
