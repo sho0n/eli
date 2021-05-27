@@ -20,7 +20,7 @@ class Hamburger extends Component {
     render() {
         return (
             <>
-                <div onClick={(e) => this.changeState(e)}>
+                <div className='mainmobile' onClick={(e) => this.changeState(e)}>
                     <img onClick={() => this.props.action(`${this.state.newState}`)} src={Menu} className='menuIcon' alt='menu icon' ></img>
                 </div>
             </>

@@ -46,11 +46,13 @@ class App extends React.Component {
 
       <script src="https://kit.fontawesome.com/df47df994c.js" crossorigin="anonymous"></script>      </head>
 				<Router>
+					<div className='nn'>
 					<Hamburger action={this.childHandler} />
 					<div className={this.state.data} >
 						<Navbar scrollToTarget={this.scrollToTarget}></Navbar>
 					</div>
-					<img className='cover' src={Main} ></img>
+					</div>
+					
 					<br></br>
 					<div ref={ref => { this.targetRef = ref }} ><Promociones/></div>
 					<br></br>
