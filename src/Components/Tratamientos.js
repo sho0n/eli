@@ -15,6 +15,11 @@ class Tratamientos extends React.Component {
         return (
             <>
             <div className='promo-title-box'><h1 className='promo-title'>TRATAMIENTOS</h1></div> 
+             <br></br>
+             <br></br>
+             <br></br>
+             <br></br>
+             <br></br>
                 <div className='grid-tratamientos'>
                 <div className='box'>
                     <h1 className='title'>Depilacion</h1>

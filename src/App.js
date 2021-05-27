@@ -50,9 +50,24 @@ class App extends React.Component {
 					<div className={this.state.data} >
 						<Navbar scrollToTarget={this.scrollToTarget}></Navbar>
 					</div>
-					<img className='cover' src={Main} />
+					<img className='cover' src={Main} ></img>
+					<br></br>
 					<div ref={ref => { this.targetRef = ref }} ><Promociones/></div>
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
+
 					<div ref={ref => { this.targetRef = 'tratamientos' }} ><Tratamientos /></div>
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
+
 					<div ref={ref => { this.targetRef = ref }} ><Contacto/></div>
 					<Switch>
 						<Route exact path="/" component='' />

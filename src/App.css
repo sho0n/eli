@@ -26,7 +26,10 @@
 
   /******* HAMBURGUER  **********/
   .nav-box {
-    background-color: white; 
+    background-image: url(./Assets/mainh.jpg); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
     height: auto;
     margin: 0 auto;
   }
@@ -69,13 +72,14 @@
       display: inline;  
     }
     .links-box{
-      width: 50%;
+      font-family: 'Londrina Solid';
+     
     }
-    a{
-      font-size: 16px;
-      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;      
+    a{   
       font-stretch: extra-expanded; 
-      color: #000000;
+      font-size: larger;
+      font-weight: bold;
+      color: rgb(250, 246, 248);
       text-decoration: none;
     }
     .menuIcon{
@@ -120,7 +124,7 @@
       background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
       background-size: 400% 400%;
       animation: gradient 15s ease infinite;
-      color: white;
+      color: rgb(7, 7, 7);
       border-radius: 120px;
     }
     .box-v {
@@ -130,10 +134,10 @@
       margin: 0 auto;
       display: block;
       margin-top: 20px;
-      background: linear-gradient(-45deg, #ee7752, #e7bf3c, #077a16, #2cd4ad);
+      background: linear-gradient(-45deg, #e73c7e, #23a6d5, #077a16, #2cd4ad);
       background-size: 400% 400%;
       animation: gradient 15s ease infinite;
-      color: white;
+      color: rgb(5, 5, 5);
       border-radius: 120px;
     }
     @media only screen and (max-width: 450px) {
@@ -157,19 +161,19 @@
       text-align: center;
       margin-left: 15px;
       padding: 10px;
-      font-family: 'Arial, Helvetica, sans-serif'; 
+      font-family: 'Londrina Solid';
       margin-top: 20px;
     }
     .text-v{  
-      
       text-align: center;
-      font-family: 'Arial, Helvetica, sans-serif';   
-      width: 90%;
+      font-family: 'Londrina Solid';
+            width: 90%;
+
   }
   .text {  
-      
+    font-family: 'Londrina Solid';
     text-align: center;
-    font-family: 'Arial, Helvetica, sans-serif';   
+       
     width: 90%;
 }
   
@@ -187,12 +191,14 @@
       
     .promo-title {
       text-align: center;
-      font-family: 'Arial, Helvetica, sans-serif';
+      font-family: 'Londrina Solid';
     }
     .promo-title-box {
       width: 80%;
       margin: 0 auto;
       border-bottom: 3px solid rgb(240, 91, 136);
+      border-top: 3px solid rgb(240, 91, 136);
+
     }
 
     /*********  PROMOCIONES *********/
@@ -363,17 +369,18 @@
 
       .bono {
         color: rgb(35, 36, 35);
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: bold;
+        font-family: 'Londrina Solid';
         font-size: larger;
       }
       .sesiones {
         color: rgb(250, 245, 247);
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Lobster Two', cursive;
         font-size: large;
       }
       .precio {
         color: black;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-family: 'Londrina Solid';
         font-size: large;
       }
 
