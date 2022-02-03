@@ -6,78 +6,51 @@ import React from 'react';
 import Tratamientos from './Components/Tratamientos';
 import Promociones from './Components/Promociones';
 import Contacto from './Components/Contacto';
-import Main from './Assets/main.jpg';
-import Main2 from './Assets/spa.png';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Hamburger from './Components/Hamburger';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+
+const SmoothScroll = () => (
+	<div>
+	<div className='nav-box'>
+		<div className="links-box">
+			<div className='link'><AnchorLink href='#inicio'>Inicio</AnchorLink></div>
+			<div className='link'><AnchorLink href='#promociones'>Promociones</AnchorLink></div>
+			<div className='link'><AnchorLink href='#tratamientos'>Tratamientos</AnchorLink></div>
+			<div className='link'><AnchorLink href='#contacto'>Contacto</AnchorLink></div>
+		</div>
+	</div>
+	<div>
+		<section id='inicio'>
+			
+		</section>
+		<section id='promociones'>
+			<Promociones></Promociones>
+	    </section>
+		<section id='tratamientos'>
+			<Tratamientos></Tratamientos>
+		</section>
+		<section id='contacto'>
+			<Contacto/>
+		</section>
+	</div>
+	</div>
+	
+)
 
 class App extends React.Component {
 	constructor(props) {
 		super(props)
-		this.state = {
-			data: ''
-		};
-		this.childHandler = this.childHandler.bind(this)
 	}
-	childHandler(dataFromChild) {
-		this.setState({
-			data: dataFromChild
-		}, () => console.log(this.state))
-	}
-	targetRef = React.createRef();
-
-	componentDidMount = () => {
-		console.log(this.props)
-	}
-
-	scrollToTarget = () => {
-		setTimeout(() => {
-			this.targetRef.scrollIntoView({
-				behavior: 'smooth'
-			})
-		}, 500);
-	}
+	
 
 	render() {
 		return (
 			<>
-			 <head>
-      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-
-      <script src="https://kit.fontawesome.com/df47df994c.js" crossorigin="anonymous"></script>      </head>
-				<Router>
-					<div className='nn'>
-					<Hamburger action={this.childHandler} />
-					<div className={this.state.data} >
-						<Navbar scrollToTarget={this.scrollToTarget}></Navbar>
-					</div>
-					</div>
-					
-					<br></br>
-					<div ref={ref => { this.targetRef = ref }} ><Promociones/></div>
-					<br></br>
-					<br></br>
-					<br></br>
-					<br></br>
-					<br></br>
-					<br></br>
-
-					<div ref={ref => { this.targetRef = 'tratamientos' }} ><Tratamientos /></div>
-					<br></br>
-					<br></br>
-					<br></br>
-					<br></br>
-					<br></br>
-					<br></br>
-
-					<div ref={ref => { this.targetRef = ref }} ><Contacto/></div>
-					<Switch>
-						<Route exact path="/" component='' />
-						<Route exact path="/tratamientos" component='' />
-						<Route exact path="/promociones" component='' />
-						<Route exact path="/contacto" component='' />
-					</Switch>
-				</Router>
+				<Hamburger/>
+				
+				<SmoothScroll/>
 			</>
 		);
 	}

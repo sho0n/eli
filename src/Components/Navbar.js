@@ -20,7 +20,7 @@ class Navbar extends React.Component {
                         <Link to={{
                             pathname: './tratamientos',
                             state: {
-                                fromBanner: true
+                                fromBanner: ''
                             }
                         }}>Tratamientos
                     </Link>
@@ -28,13 +28,13 @@ class Navbar extends React.Component {
                     <div className='link'><Link to={{
                         pathname: './promociones',
                         state: {
-                            fromBanner: true
+                            fromBanner: ''
                         }
                     }}>Promociones</Link></div>
                     <div className='link'><Link to={{
                         pathname: './contacto',
                         state: {
-                            fromBanner: true
+                            fromBanner: false
                         }
                     }}>Contacto</Link></div>
 

@@ -3,18 +3,19 @@ import React from 'react';
 import Depilacion from '../Assets/depilacion.jpg';
 import Navbar from './Navbar';
 
+
 class Tratamientos extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            location: ''
+            location: 'tratamientos'
         }
     }
 
     render() {
         return (
             <>
-            <div className='promo-title-box'><h1 className='promo-title'>TRATAMIENTOS</h1></div> 
+            <div id='tratamientos' className='promo-title-box'><h1 className='promo-title'>TRATAMIENTOS</h1></div> 
              <br></br>
              <br></br>
              <br></br>

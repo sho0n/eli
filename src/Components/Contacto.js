@@ -6,7 +6,7 @@ class Contacto extends React.Component {
 render() {
         return (
             <>
-                            		<div className='promo-title-box'><h1 className='promo-title'>CONTACTO</h1></div>
+            <div id='contacto' className='promo-title-box'><h1 className='promo-title'>CONTACTO</h1></div>
 
             <div className='grid-container_Contact'>
 

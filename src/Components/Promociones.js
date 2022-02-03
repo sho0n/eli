@@ -12,10 +12,17 @@ import Premium from '../Assets/premium.jpg';
 import Empresas from '../Assets/empresas.jpg';
 import Relax from '../Assets/relax.jpg';
 
-function Promociones() {
-    return (
+class Promociones extends React.Component {
+constructor(props) {
+	super(props);
+	this.state = {
+		location: 'promociones'
+	}
+}
+render() {
+	return (
 		<>
-		<div className='promo-title-box'><h1 className='promo-title'>PROMOCIONES</h1></div>
+		<div id='promociones' className='promo-title-box'><h1 className='promo-title'>PROMOCIONES</h1></div>
 		
 			<div class="gridOne">
 				<div className="flip-card">
@@ -198,7 +205,8 @@ function Promociones() {
 				</div>
 			</div>
 		</>
-	)
+       );
+    }
 }
 
 export default Promociones;
