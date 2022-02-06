@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/eli/static/css/main.43022c01.chunk.css",
-    "main.js": "/eli/static/js/main.3f97e6b7.chunk.js",
-    "main.js.map": "/eli/static/js/main.3f97e6b7.chunk.js.map",
-    "runtime-main.js": "/eli/static/js/runtime-main.4da77b06.js",
-    "runtime-main.js.map": "/eli/static/js/runtime-main.4da77b06.js.map",
-    "static/js/2.48c7674f.chunk.js": "/eli/static/js/2.48c7674f.chunk.js",
-    "static/js/2.48c7674f.chunk.js.map": "/eli/static/js/2.48c7674f.chunk.js.map",
-    "static/js/3.fdd2555d.chunk.js": "/eli/static/js/3.fdd2555d.chunk.js",
-    "static/js/3.fdd2555d.chunk.js.map": "/eli/static/js/3.fdd2555d.chunk.js.map",
+    "main.css": "/eli/static/css/main.6e98368d.chunk.css",
+    "main.js": "/eli/static/js/main.f92fd98f.chunk.js",
+    "main.js.map": "/eli/static/js/main.f92fd98f.chunk.js.map",
+    "runtime-main.js": "/eli/static/js/runtime-main.8d8016f4.js",
+    "runtime-main.js.map": "/eli/static/js/runtime-main.8d8016f4.js.map",
+    "static/js/2.308e85e2.chunk.js": "/eli/static/js/2.308e85e2.chunk.js",
+    "static/js/2.308e85e2.chunk.js.map": "/eli/static/js/2.308e85e2.chunk.js.map",
+    "static/js/3.6c1247fe.chunk.js": "/eli/static/js/3.6c1247fe.chunk.js",
+    "static/js/3.6c1247fe.chunk.js.map": "/eli/static/js/3.6c1247fe.chunk.js.map",
     "index.html": "/eli/index.html",
-    "static/css/main.43022c01.chunk.css.map": "/eli/static/css/main.43022c01.chunk.css.map",
-    "static/js/2.48c7674f.chunk.js.LICENSE.txt": "/eli/static/js/2.48c7674f.chunk.js.LICENSE.txt",
+    "static/css/main.6e98368d.chunk.css.map": "/eli/static/css/main.6e98368d.chunk.css.map",
+    "static/js/2.308e85e2.chunk.js.LICENSE.txt": "/eli/static/js/2.308e85e2.chunk.js.LICENSE.txt",
     "static/media/Preso.b42afab3.jpg": "/eli/static/media/Preso.b42afab3.jpg",
     "static/media/anticelulitico.b12efe3d.jpg": "/eli/static/media/anticelulitico.b12efe3d.jpg",
     "static/media/cavitacion.d1fb2885.jpg": "/eli/static/media/cavitacion.d1fb2885.jpg",
@@ -28,9 +28,9 @@
     "static/media/vacumterapia.e64d23cf.jpg": "/eli/static/media/vacumterapia.e64d23cf.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4da77b06.js",
-    "static/js/2.48c7674f.chunk.js",
-    "static/css/main.43022c01.chunk.css",
-    "static/js/main.3f97e6b7.chunk.js"
+    "static/js/runtime-main.8d8016f4.js",
+    "static/js/2.308e85e2.chunk.js",
+    "static/css/main.6e98368d.chunk.css",
+    "static/js/main.f92fd98f.chunk.js"
   ]
 }
