@@ -2,7 +2,15 @@
   text-align: center;
 }
 
-
+.logo {
+  color: rgb(240, 121, 157);
+  text-align: center;
+      font-size: 60px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-weight: bolder;
+      background-color: seashell;
+      padding: 10px;  
+}
 
 
 
@@ -15,6 +23,7 @@
     height: 500px;
     background-position: top; 
     color:rgb(250, 245, 247);
+    width: 100%;
   }
   .menuIcon {
     height: 20px;
@@ -28,48 +37,97 @@
   }
   
   .links-box{ 
-    padding-top: 100px;
-    margin: 0 auto;
-    width: 95%;
+    margin-right: 0;
+   
+    
+    
   }
   .link {
-    width: 98%;
+    width: 90%;
+    color: rgb(240, 91, 136);
+    text-align: right;
+    margin: 20px;
+
   } 
   a {
     font-stretch: extra-expanded; 
-      font-size: larger;
-      font-weight: bold;
-      color: rgb(250, 246, 248);
-      text-decoration: none;
+    font-size: larger;
+    color: rgb(240, 121, 157);
+    background-color: seashell;
+    padding: 5px;
+    text-decoration: none;
   }
   a:hover {
-    color: #426e24;
+    color: rgb(218, 47, 98);
     text-decoration: none;
+
   }
  .cover {
    margin: 0 auto;
    width: 100%;
  }
   
+ .container {  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "tr"
+    "br";
+}
+.tl { grid-area: tl; }
+.tr { grid-area: tr; }
+.bl { grid-area: bl; }
+.br { grid-area: br; }
 
   
   @media only screen and (min-width: 450px) {
     
+    .container {  display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 0px 0px;
+      grid-auto-flow: row;
+      grid-template-areas:
+        "tl tr"
+        "bl br";
+    }
+    
+    .tl { grid-area: tl; }
+    
+    .tr { grid-area: tr; }
+    
+    .bl { grid-area: bl; }
+    
+    .br { grid-area: br; }
+    
+    
     .links-box{
       font-family: 'Londrina Solid';
+      margin-right: 0;
      
     }
-   
+    p.logo {
+      color:rgb(241, 93, 143);
+      text-align: right;
+      font-size: 60px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      padding: 50px;
+      background-color: unset;
+    }
   
   .link {
-      width: 98%;
-      padding: 15px;
+      width: 90%;
+      padding: 10px;
+      margin: 5px;
   }
     a{   
       font-stretch: extra-expanded; 
       font-size: larger;
-      font-weight: bold;
-      color: rgb(250, 246, 248);
+      color: rgb(240, 121, 157);
+      background-color: seashell;
+      padding: 5px;
       text-decoration: none;
     }
     .menuIcon{
@@ -110,26 +168,22 @@
         ". .";
     }
     .box {
-      background: linear-gradient(to left, #f7c5d4, rgb(250, 248, 248));
-      background-color: #f7c5d4;
       width: 500px;
       margin: 0 auto;
       display: block;
       margin-top: 20px;
-      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+      background: linear-gradient(-45deg, #fce5ec, #F0799D, #e73c7e, #fce5ec, #23d5ab);
       background-size: 400% 400%;
-      animation: gradient 15s ease infinite;
+      animation: gradient 10s ease infinite;
       color: rgb(7, 7, 7);
       border-radius: 120px;
     }
     .box-v {
-      background: linear-gradient(to left, #f7c5d4, rgb(250, 248, 248));
-      background-color: #f7c5d4;
       width: 500px;
       margin: 0 auto;
       display: block;
       margin-top: 20px;
-      background: linear-gradient(-45deg, #e73c7e, #23a6d5, #077a16, #2cd4ad);
+      background: linear-gradient(-145deg, #fce5ec, #e0c2cb, #e4749f, #fce5ec, #23d5ab);
       background-size: 400% 400%;
       animation: gradient 15s ease infinite;
       color: rgb(5, 5, 5);
@@ -137,10 +191,10 @@
     }
     @media only screen and (max-width: 450px) {
       .box {
-        width: 80%;
+        width: 87%;
       }
       .box-v {
-        width: 80%;
+        width: 87%;
       }
       .text {  
         text-align: right;  
@@ -413,7 +467,7 @@
         color: rgb(250, 92, 145);
     }
      .contactLink {
-         color: rgb(139, 139, 139);
+         color: rgb(95, 94, 94);
          text-decoration: blueviolet;
      }
     
