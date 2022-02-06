@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/eli/static/css/main.6e98368d.chunk.css",
+    "main.css": "/eli/static/css/main.4bce011a.chunk.css",
     "main.js": "/eli/static/js/main.f92fd98f.chunk.js",
     "main.js.map": "/eli/static/js/main.f92fd98f.chunk.js.map",
     "runtime-main.js": "/eli/static/js/runtime-main.8d8016f4.js",
@@ -10,7 +10,7 @@
     "static/js/3.6c1247fe.chunk.js": "/eli/static/js/3.6c1247fe.chunk.js",
     "static/js/3.6c1247fe.chunk.js.map": "/eli/static/js/3.6c1247fe.chunk.js.map",
     "index.html": "/eli/index.html",
-    "static/css/main.6e98368d.chunk.css.map": "/eli/static/css/main.6e98368d.chunk.css.map",
+    "static/css/main.4bce011a.chunk.css.map": "/eli/static/css/main.4bce011a.chunk.css.map",
     "static/js/2.308e85e2.chunk.js.LICENSE.txt": "/eli/static/js/2.308e85e2.chunk.js.LICENSE.txt",
     "static/media/Preso.b42afab3.jpg": "/eli/static/media/Preso.b42afab3.jpg",
     "static/media/anticelulitico.b12efe3d.jpg": "/eli/static/media/anticelulitico.b12efe3d.jpg",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.8d8016f4.js",
     "static/js/2.308e85e2.chunk.js",
-    "static/css/main.6e98368d.chunk.css",
+    "static/css/main.4bce011a.chunk.css",
     "static/js/main.f92fd98f.chunk.js"
   ]
 }
